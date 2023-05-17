@@ -11,7 +11,8 @@ import SwiftUI
 struct CrypticoastiOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .navigationBarHidden(true)
         }
     }
 }
