@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0C5E362A16341E0091E94C /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C5E352A16341E0091E94C /* PreviewProvider.swift */; };
 		7A2D8B072A14BCF300B07CB9 /* CrypticoastiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B062A14BCF300B07CB9 /* CrypticoastiOSApp.swift */; };
 		7A2D8B092A14BCF300B07CB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B082A14BCF300B07CB9 /* ContentView.swift */; };
 		7A2D8B0B2A14BCF500B07CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D8B0A2A14BCF500B07CB9 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0C5E352A16341E0091E94C /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		7A2D8B032A14BCF300B07CB9 /* CrypticoastiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrypticoastiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2D8B062A14BCF300B07CB9 /* CrypticoastiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrypticoastiOSApp.swift; sourceTree = "<group>"; };
 		7A2D8B082A14BCF300B07CB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2D8B152A14BE2B00B07CB9 /* Color.swift */,
+				7A0C5E352A16341E0091E94C /* PreviewProvider.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				7A2D8B212A14BF9700B07CB9 /* CircleButtonView.swift in Sources */,
 				7A2D8B162A14BE2B00B07CB9 /* Color.swift in Sources */,
 				7A2D8B232A14BFD700B07CB9 /* CircleButtonAnimationView.swift in Sources */,
+				7A0C5E362A16341E0091E94C /* PreviewProvider.swift in Sources */,
 				7A2D8B262A14C12D00B07CB9 /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
