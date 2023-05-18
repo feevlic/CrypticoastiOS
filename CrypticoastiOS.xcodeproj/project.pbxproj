@@ -16,6 +16,7 @@
 		7A2D8B212A14BF9700B07CB9 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B202A14BF9700B07CB9 /* CircleButtonView.swift */; };
 		7A2D8B232A14BFD700B07CB9 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B222A14BFD700B07CB9 /* CircleButtonAnimationView.swift */; };
 		7A2D8B262A14C12D00B07CB9 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B252A14C12D00B07CB9 /* Coin.swift */; };
+		7A2D8B282A14C8A200B07CB9 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B272A14C8A200B07CB9 /* CoinRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7A2D8B202A14BF9700B07CB9 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		7A2D8B222A14BFD700B07CB9 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		7A2D8B252A14C12D00B07CB9 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		7A2D8B272A14C8A200B07CB9 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				7A2D8B242A14C11700B07CB9 /* Models */,
+				7A2D8B142A14BDF300B07CB9 /* Extensions */,
 				7A2D8B172A14BEC300B07CB9 /* Core */,
 				7A2D8B062A14BCF300B07CB9 /* CrypticoastiOSApp.swift */,
-				7A2D8B142A14BDF300B07CB9 /* Extensions */,
 				7A2D8B082A14BCF300B07CB9 /* ContentView.swift */,
 				7A2D8B0A2A14BCF500B07CB9 /* Assets.xcassets */,
 				7A2D8B0C2A14BCF500B07CB9 /* Preview Content */,
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				7A2D8B1E2A14BF3800B07CB9 /* HomeView.swift */,
+				7A2D8B272A14C8A200B07CB9 /* CoinRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2D8B282A14C8A200B07CB9 /* CoinRowView.swift in Sources */,
 				7A2D8B092A14BCF300B07CB9 /* ContentView.swift in Sources */,
 				7A2D8B1F2A14BF3800B07CB9 /* HomeView.swift in Sources */,
 				7A2D8B072A14BCF300B07CB9 /* CrypticoastiOSApp.swift in Sources */,
