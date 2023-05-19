@@ -26,7 +26,7 @@ class CoinImageService {
     
     private func getCoinImage() {
         if let savedImage = fileManager.getImage(imageName: coin.id, folderName: folderName) {
-            image = image
+            image = savedImage
         } else {
             downloadCoinImage()
         }
