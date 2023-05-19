@@ -24,6 +24,7 @@
 		7A2D8B212A14BF9700B07CB9 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B202A14BF9700B07CB9 /* CircleButtonView.swift */; };
 		7A2D8B262A14C12D00B07CB9 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B252A14C12D00B07CB9 /* Coin.swift */; };
 		7A2D8B282A14C8A200B07CB9 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2D8B272A14C8A200B07CB9 /* CoinRowView.swift */; };
+		7A40289D2A176CE3005618B5 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A40289C2A176CE3005618B5 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		7A2D8B202A14BF9700B07CB9 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		7A2D8B252A14C12D00B07CB9 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		7A2D8B272A14C8A200B07CB9 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		7A40289C2A176CE3005618B5 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				7A0C5E3F2A166E1A0091E94C /* NetworkingManager.swift */,
+				7A40289C2A176CE3005618B5 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				7A2D8B1F2A14BF3800B07CB9 /* HomeView.swift in Sources */,
 				7A0C5E432A16743C0091E94C /* CoinImageView.swift in Sources */,
 				7A2D8B072A14BCF300B07CB9 /* CrypticoastiOSApp.swift in Sources */,
+				7A40289D2A176CE3005618B5 /* LocalFileManager.swift in Sources */,
 				7A2D8B212A14BF9700B07CB9 /* CircleButtonView.swift in Sources */,
 				7A2D8B162A14BE2B00B07CB9 /* Color.swift in Sources */,
 				7A0C5E402A166E1A0091E94C /* NetworkingManager.swift in Sources */,
